@@ -46,6 +46,7 @@ Configurable rules stored in JSON (C:\ProgramData\ClickfixShield\config.json)
 
 
 🧠 Detection Patterns
+
 Category	Examples Matched	Description
 LOLBINs	mshta, rundll32, certutil, wmic	Common living-off-the-land binaries used for execution and payload retrieval
 PowerShell Abuse	IEX, DownloadString, FromBase64String	Commands used to execute code from memory or the web
