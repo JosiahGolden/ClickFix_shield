@@ -151,7 +151,7 @@ Built with 🦀 Rust and a mission to make security simpler for everyone.
 
 💬 Connect
 
-LinkedIn: linkedin.com/in/josiahgolden
+LinkedIn: [linkedin.com/in/josiahgolden](https://www.linkedin.com/in/josiah-golden/)
 
 Youtube: https://youtube.com/@josiahgold3n?si=02n0UaLYue1tVbgk
 
