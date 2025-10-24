@@ -139,7 +139,8 @@ poll_ms: Clipboard polling interval (ms)
 
 📸 Screenshots (coming soon)
 
-(Add a screenshot of your tray icon and alert popup here.)
+![ClickFix Alert](image.png)
+![ClickFix In Tray](image-1.png)
 
 
 🙌 Credits
