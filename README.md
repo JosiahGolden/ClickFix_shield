@@ -139,7 +139,12 @@ poll_ms: Clipboard polling interval (ms)
 
 📸 Screenshots (coming soon)
 
+ClickFix Shield Alert in Action:
+
 ![ClickFix Alert](image.png)
+
+ClickFix Shield in Tray (Yellow Shield Icon):
+
 ![ClickFix In Tray](image-1.png)
 
 
