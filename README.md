@@ -62,6 +62,7 @@ You can whitelist safe text patterns in config.json via the allow_regex array.
 🧰 Installation & Setup
 
 1️⃣ Download or build the binary
+
 cargo build --release
 
 
@@ -87,6 +88,7 @@ $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoi
 Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Principal $principal -Settings $settings
 
 3️⃣ Run it once
+
 start "" "C:\ProgramData\ClickfixShield\clickfix-shield.exe"
 
 
@@ -125,12 +127,15 @@ poll_ms: Clipboard polling interval (ms)
 
 
 📦 Build Info
-Field	Value
-Language	Rust
-Version	0.2.0
-Platform	Windows 10 / 11
-License	MIT
-Author	Josiah Golden (@josiahgolden)
+
+| Field    | Value                         |
+| -------- | ----------------------------- |
+| Language | Rust                          |
+| Version  | 0.2.0                         |
+| Platform | Windows 10 / 11               |
+| License  | MIT                           |
+| Author   | Josiah Golden (@josiahgolden) |
+
 
 
 📸 Screenshots (coming soon)
