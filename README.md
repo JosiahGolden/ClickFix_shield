@@ -47,12 +47,14 @@ Configurable rules stored in JSON (C:\ProgramData\ClickfixShield\config.json)
 
 🧠 Detection Patterns
 
-Category	Examples Matched	Description
-LOLBINs	mshta, rundll32, certutil, wmic	Common living-off-the-land binaries used for execution and payload retrieval
-PowerShell Abuse	IEX, DownloadString, FromBase64String	Commands used to execute code from memory or the web
-Run-box Commands	powershell …, cmd /c …	Paste-and-run attack patterns
-Defender Tampering	Set-MpPreference, Add-MpPreference	Attempts to disable or exclude Defender scanning
-Encoded Payloads	Long Base64 strings	Obfuscated data often used in malware delivery
+| **Category**           | **Examples Matched**                        | **Description**                                                            |
+| ---------------------- | ------------------------------------------- | -------------------------------------------------------------------------- |
+| **LOLBINs**            | `mshta`, `rundll32`, `certutil`, `wmic`     | Living-off-the-land binaries often abused to execute or retrieve payloads. |
+| **PowerShell Abuse**   | `IEX`, `DownloadString`, `FromBase64String` | Code execution directly from memory or remote sources.                     |
+| **Run-box Commands**   | `powershell ...`, `cmd /c ...`              | Commands likely pasted into Run or terminal prompts.                       |
+| **Defender Tampering** | `Set-MpPreference`, `Add-MpPreference`      | Attempts to disable or exclude Windows Defender protections.               |
+| **Encoded Payloads**   | Long Base64 strings                         | Obfuscated content typically used for malware delivery.                    |
+
 
 You can whitelist safe text patterns in config.json via the allow_regex array.
 
