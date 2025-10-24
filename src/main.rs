@@ -1,3 +1,6 @@
+//Josiah Golden
+//10/24/2025
+
 #![windows_subsystem = "windows"]
 
 use tray_icon::Icon;
