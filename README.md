@@ -133,7 +133,6 @@ poll_ms: Clipboard polling interval (ms)
 | Language | Rust                          |
 | Version  | 0.2.0                         |
 | Platform | Windows 10 / 11               |
-| License  | MIT                           |
 | Author   | Josiah Golden (@josiahgolden) |
 
 
